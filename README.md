@@ -4,19 +4,19 @@ SmartLoan AI
 
 SmartLoan AI is a professional full-stack AI/ML portfolio project that demonstrates a complete digital loan-processing system with loan application management, PDF generation, document extraction, machine learning prediction, admin review workflow, reporting, AI document assistance, and Docker-based deployment.
 
-""Python" (https://img.shields.io/badge/Python-3.11-blue)"
-""FastAPI" (https://img.shields.io/badge/FastAPI-Backend-green)"
-""React" (https://img.shields.io/badge/React-Frontend-61DAFB)"
-""TypeScript" (https://img.shields.io/badge/TypeScript-Frontend-blue)"
-""Machine Learning" (https://img.shields.io/badge/Machine%20Learning-scikit--learn-orange)"
-""Docker" (https://img.shields.io/badge/Docker-Ready-2496ED)"
-""Status" (https://img.shields.io/badge/Status-Completed-success)"
+<br/>"Python" (https://img.shields.io/badge/Python-3.11-blue)
+"FastAPI" (https://img.shields.io/badge/FastAPI-Backend-green)
+"React" (https://img.shields.io/badge/React-Frontend-61DAFB)
+"TypeScript" (https://img.shields.io/badge/TypeScript-Frontend-blue)
+"Machine Learning" (https://img.shields.io/badge/ML-scikit--learn-orange)
+"Docker" (https://img.shields.io/badge/Docker-Ready-2496ED)
+"Status" (https://img.shields.io/badge/Status-Completed-success)
 
 </div>---
 
 Repository
 
-GitHub: https://github.com/tankim-prio/smartloan-ai
+GitHub: "https://github.com/tankim-prio/smartloan-ai" (https://github.com/tankim-prio/smartloan-ai)
 
 ---
 
@@ -51,7 +51,7 @@ Project Overview
 
 SmartLoan AI is a realistic loan application processing platform designed to demonstrate practical software engineering, applied AI/ML integration, document intelligence, and end-to-end workflow automation.
 
-The system allows an applicant to create a loan application, generate a loan PDF, upload documents, extract information from PDFs, run machine learning based loan risk prediction, send the application for review, and allow an admin or reviewer to approve or refuse the application.
+The platform allows an applicant to create a loan application, generate a loan PDF, upload documents, extract information from PDFs, run machine learning based loan risk prediction, send the application for review, and allow an admin or reviewer to approve or refuse the application.
 
 This project connects multiple real-world software components into one complete workflow:
 
@@ -115,7 +115,7 @@ Because of this, the project can be reviewed as:
 
 Core Features
 
-Authentication & User Workflow
+1. Authentication & User Workflow
 
 - Login page
 - Create account page
@@ -125,7 +125,7 @@ Authentication & User Workflow
 - Admin/reviewer workflow concept
 - Clean navigation between system modules
 
-Loan Application Management
+2. Loan Application Management
 
 - Professional Apply page
 - Personal information section
@@ -136,7 +136,7 @@ Loan Application Management
 - Dynamic loan application process
 - Professional blank form fields instead of hardcoded sample data
 
-PDF Generation
+3. PDF Generation
 
 - Generate loan application PDF
 - Include applicant summary
@@ -146,7 +146,7 @@ PDF Generation
 - Download generated PDF
 - Use generated PDF as part of the loan submission workflow
 
-PDF Upload & Document Extraction
+4. PDF Upload & Document Extraction
 
 - Upload generated or external loan PDF
 - Extract readable text from PDF
@@ -174,7 +174,7 @@ Example extracted information may include:
 - Monthly salary
 - NID or scanned document text when OCR is possible
 
-Review Management System
+5. Review Management System
 
 - Send loan application for review
 - Create review record
@@ -187,7 +187,7 @@ Review Management System
 - Admin can approve or refuse loan application
 - Clean card-based review interface
 
-Machine Learning Risk Prediction
+6. Machine Learning Risk Prediction
 
 - Loan approval probability
 - Risk score
@@ -198,16 +198,16 @@ Machine Learning Risk Prediction
 - Model serving workflow
 - Prediction connected with Apply page
 
-Dashboard & Reports
+7. Dashboard & Reports
 
 - Dashboard overview
 - Application statistics
 - Review status summary
-- Report page
+- Reports page
 - Management-level insights
 - Portfolio-ready admin interface
 
-AI Pilot / RAG Assistant
+8. AI Pilot / RAG Assistant
 
 - AI document assistant concept
 - Store document text
@@ -216,7 +216,7 @@ AI Pilot / RAG Assistant
 - Demonstrates retrieval-style AI workflow
 - Shows how AI can support financial document understanding
 
-Docker Deployment
+9. Docker Deployment
 
 - Dockerized backend
 - Dockerized frontend
@@ -255,6 +255,7 @@ flowchart TD
     C --> G[PDF Extraction Service]
     C --> H[ML Prediction Service]
     C --> I[AI / RAG Document Assistant]
+
     D --> J[Applications, Users, Reviews]
     E --> K[Uploads, Generated PDFs, Documents]
     H --> L[Risk Score, Approval Probability, Risk Band]
