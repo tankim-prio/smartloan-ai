@@ -1,4 +1,4 @@
-```markdown
+
 # SmartLoan AI
 
 ### AI-Powered Loan Application, PDF Intelligence, Review Workflow & Risk Prediction Platform
@@ -174,10 +174,6 @@ flowchart TD
     H --> L[Risk Score, Approval Probability, Risk Band]
     G --> M[Readable Text and Structured Fields]
 ```
-
-*The frontend communicates exclusively through the REST API, which orchestrates calls to the database, file storage, and all intelligence services. This layered design ensures the ML, OCR, and assistant engines remain modular and independently testable.*
-
----
 
 ## Database Schema Overview
 
